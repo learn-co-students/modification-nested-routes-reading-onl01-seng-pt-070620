@@ -27,7 +27,8 @@ resources :posts
 
 This gives us access to `/authors/:author_id/posts/new`, and a `new_author_post_path` helper.
 
-**Top-tip:** Remember to run `rake routes` if you're unsure of the URL helper name.
+**Top-tip:** Remember to run `rake r
+outes` if you're unsure of the URL helper name.
 
 We have the route, so now we need to update our `posts_controller#new` action to handle the `:author_id` parameter.
 
